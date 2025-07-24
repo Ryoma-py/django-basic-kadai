@@ -18,7 +18,7 @@ class ProductListView(ListView):
     paginate_by = 5
 
 
-# kadai010
+# kadai010 詳細
 class ProductDetailView(DetailView):
     model = Product
     template_name = "crud/product_detail.html"
